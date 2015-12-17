@@ -1,0 +1,23 @@
+{
+  "name": "randchars",
+  "version": "1.0.0",
+  "description": "Generate random characters",
+  "main": "randchars.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fenivana/randchars.git"
+  },
+  "keywords": [
+    "random",
+    "characters"
+  ],
+  "author": "Fenix",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fenivana/randchars/issues"
+  },
+  "homepage": "https://github.com/fenivana/randchars#readme"
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html class="" lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<title>randchars</title>
+<script src="randchars.js"></script>
+</head>
+<body>
+<textarea id="input" style="width: 600px; height: 300px" disabled></textarea>
+<script>
+var input = document.getElementById('input');
+input.value += randchars(8, randchars.table.number + randchars.table.uppercase) + '\n';
+input.value += new Date().getTime().toString(16) + '\n';
+input.value += randchars(16);
+</script>
+</pre>
+</body>
+</html>
